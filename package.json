@@ -1,11 +1,14 @@
 {
-  "name": "node-example",
-  "version": "0.0.1",
-  "dependencies": {
-    "express": "2.5.x"
+  "name": "recipes",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
-  }
+  "dependencies": {
+    "express": "2.5.11",
+    "ejs": "0.7.2"
+  },
+  "author": "Joe LeBlanc",
+  "license": "BSD"
 }
