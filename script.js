@@ -3,7 +3,7 @@ var express = require('express');
 var app = express.createServer();
 
 app.get('/', function(req, res){
-  res.render('index.ejs', {title: 'Clever Kitchens'});
+  res.render('index.ejs', {title: 'LetterPad'});
 });
 
 app.get('/recipes', function(req, res){
